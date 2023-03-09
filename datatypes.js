@@ -1,11 +1,21 @@
 //Question 5 Use the JavaScript typeof operator to check different data types. Check the data type of each variable
 
 //.....Answer............//
+
+const name = "Stella";
 console.log(typeof "name");
-console.log(typeof false);
-console.log(typeof 7);
-console.log(typeof undefined);
-console.log(typeof null);
+
+const isFair = false;
+console.log(typeof isFair);
+
+const figure = 7;
+console.log(typeof figure);
+
+let isAssignedTo;
+console.log(typeof isAssignedTo);
+
+const number = null;
+console.log(typeof number);
 
 //Question 6
 //declaring four variables without value
@@ -59,7 +69,7 @@ console.log(FirstName, LastName, IsMarried, Country, Age);
 let myAge;
 let yourAge;
 
-myAge = 25;
-yourAge = 35;
-console.log("I am " + myAge + " years old");
-console.log("You are " + yourAge + " years old");
+myAge = "I am " + 50 + " years old";
+yourAge = "You are " + 35 + " years old";
+console.log(myAge);
+console.log(yourAge);
