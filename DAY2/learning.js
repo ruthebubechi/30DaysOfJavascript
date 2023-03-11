@@ -1,33 +1,32 @@
-//.......Question..........//
-//declared a variable
+//Question 1
+
 let challenge = "30 Days of Javascript";
-//console.log the string
+
+//Question 2
 console.log(challenge);
 
-//console the length of the string
+//Question 3
 console.log(challenge.length);
 
-//string to uppercase
-challenge = challenge.toUpperCase();
-console.log(challenge);
-//string to lowercase
+//Question 4
+console.log(challenge.toUpperCase());
+
+//Question 5
 challenge = challenge.toLowerCase();
 console.log(challenge);
 
-//slice out the first word of the string
-challenge = challenge.slice(0, 2);
-console.log(challenge);
+//Question 6
+console.log(challenge.slice(0, 2));
 
-//slice out the Days of JavaScript
-const stillChallenge = "30 Days of JavaScript";
-stillChallenge = stillChallenge.substring(2, 18);
-console.log(stillChallenge); //............................................................................................
+//Question 7
+const sliceOut = "30 Days of JavaScript";
+console.log(sliceOut.substring(3, 21));
 
-//check if the string contains a word Script
-const word = "30 Days of JavaScript";
-console.log(word.includes("Script"));
+//Question 8
+const includeWord = "30 Days of JavaScript";
+console.log(includeWord.includes("Script"));
 
-//splitting into an array
+//Question 9
 const jsChallenge = "30 Days of JavaScript";
 console.log(jsChallenge.split());
 
@@ -84,3 +83,9 @@ console.log(startMethod.endsWith("JavaScript"));
 console.log(startMethod.match("a"));
 
 //Question 24
+const mergeWord = "30 Days of";
+console.log(mergeWord.concat("JavaScript"));
+
+//Question 25
+const repeatWord = "30 Days of JavaScript";
+console.log(repeatWord.repeat(2));
