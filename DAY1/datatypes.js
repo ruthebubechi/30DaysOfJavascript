@@ -3,7 +3,7 @@
 //.....Answer............//
 
 const name = "Stella";
-console.log(typeof "name");
+console.log(typeof name);
 
 const isFair = false;
 console.log(typeof isFair);
@@ -66,10 +66,8 @@ console.log(FirstName, LastName, IsMarried, Country, Age);
 //Declare two variables  myAge and YourAge and assign them initial values and log to the browser console//
 
 //.......Answer.........//
-let myAge;
-let yourAge;
 
-myAge = "I am " + 50 + " years old";
-yourAge = "You are " + 35 + " years old";
+let myAge = "I am " + 10 + " years old";
+let yourAge = "You are " + 30 + " years old";
 console.log(myAge);
 console.log(yourAge);
