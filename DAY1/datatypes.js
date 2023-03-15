@@ -67,7 +67,7 @@ console.log(FirstName, LastName, IsMarried, Country, Age);
 
 //.......Answer.........//
 
-let myAge = "I am " + 10 + " years old";
-let yourAge = "You are " + 30 + " years old";
+const myAge = "I am " + 10 + " years old";
+const yourAge = "You are " + 30 + " years old";
 console.log(myAge);
 console.log(yourAge);
