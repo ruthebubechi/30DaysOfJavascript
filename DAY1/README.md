@@ -1,6 +1,6 @@
 # 30DaysOfJavascript
 
-# Datatypes
+# Day2
 
 Understood primitive data types better
 
