@@ -1,6 +1,6 @@
 //Question 1
 
-let challenge = "30 Days of Javascript";
+const challenge = "30 Days of Javascript";
 
 //Question 2
 console.log(challenge);
@@ -12,8 +12,7 @@ console.log(challenge.length);
 console.log(challenge.toUpperCase());
 
 //Question 5
-challenge = challenge.toLowerCase();
-console.log(challenge);
+console.log(challenge.toLowerCase());
 
 //Question 6
 console.log(challenge.slice(0, 2));
@@ -38,7 +37,7 @@ const companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
 console.log(companies.split(" "));
 
 //Question 12
-let replaceWord = "30 Days of JavaScript";
+const replaceWord = "30 Days of JavaScript";
 console.log(replaceWord.replace("JavaScript", "Python"));
 
 //Question 13
@@ -83,7 +82,7 @@ console.log(startMethod.endsWith("JavaScript"));
 console.log(startMethod.match("a"));
 
 //Question 24
-const mergeWord = "30 Days of";
+const mergeWord = "30 Days of ";
 console.log(mergeWord.concat("JavaScript"));
 
 //Question 25
