@@ -88,3 +88,10 @@ console.log(mergeWord.concat("JavaScript"));
 //Question 25
 const repeatWord = "30 Days of JavaScript";
 console.log(repeatWord.repeat(2));
+
+//Exercise: Level 2
+
+// //Question 1
+// console.log(
+//   "The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to 'help' one another."
+// );
