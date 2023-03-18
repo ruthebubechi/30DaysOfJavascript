@@ -92,6 +92,57 @@ console.log(repeatWord.repeat(2));
 //Exercise: Level 2
 
 // //Question 1
-// console.log(
-//   "The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to 'help' one another."
-// );
+console.log(
+  "The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another."
+);
+
+//Question 2
+console.log(
+  "\"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.\""
+);
+
+//Question 3
+const num = "10";
+const numToInt = +num;
+console.log(numToInt);
+
+//Question 4
+const checkNum = "9.8";
+const numInt = +checkNum;
+console.log(Math.ceil(numInt));
+
+//Question 5
+const checkString = "python";
+const checkAnotherString = "jargon";
+console.log(checkString.includes("on"));
+console.log(checkAnotherString.includes("on"));
+
+//Question 6
+const checkJargon = "I hope this course is not full of jargon";
+console.log(checkJargon.includes("jargon"));
+
+//Question 7
+//I added the Math.floor method to do away with the float and make integers
+const randomNum = Math.floor(Math.random() * 100);
+console.log(randomNum);
+
+//Question 8
+const randomNumber = Math.floor(Math.random() * 51) + 50;
+console.log(randomNumber);
+
+///Question 9
+const ranNum = Math.floor(Math.random() * 256);
+console.log(ranNum);
+
+//Question 10
+const givenWord = "JavaScript";
+const newRandomWord = Math.floor(Math.random() * givenWord.length);
+const genRanWord = givenWord[newRandomWord];
+console.log(genRanWord);
+
+//Question 11
+
+//Question 12
+// const sliceBeause =
+//   "You cannot end a sentence with because because because is a conjunction";
+// console.log(sliceBeause.substr("because"));
