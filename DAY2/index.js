@@ -141,8 +141,35 @@ const genRanWord = givenWord[newRandomWord];
 console.log(genRanWord);
 
 //Question 11
+console.log("1\t1\t1\t1\t1");
+console.log("2\t1\t2\t4\t8");
+console.log("3\t1\t3\t9\t27");
+console.log("4\t1\t4\t16\t64");
+console.log("5\t1\t5\t25\t125");
 
 //Question 12
-// const sliceBeause =
-//   "You cannot end a sentence with because because because is a conjunction";
-// console.log(sliceBeause.substr("because"));
+const sliceBeause =
+  "You cannot end a sentence with because because because is a conjunction";
+// console.log(sliceBeause.lastIndexOf("because"));
+console.log(sliceBeause.substring(0, 31) + "is a conjunction");
+
+//Exercises Level 3
+
+//Question 1
+const loveWord =
+  "Love is the best thing in this world. Some found their love and some are still looking for their love.";
+// console.log(loveWord.match("love"));
+const checkLove = /love/gi;
+console.log(loveWord.match(checkLove));
+
+//Question 2
+const countWords =
+  "You cannot end a sentence with because because because is a conjunction";
+console.log(countWords.match("because"));
+
+const countWordsTogether = /because/gi;
+console.log(countWords.match(countWordsTogether));
+
+//Question 3
+const sentence =
+  "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
