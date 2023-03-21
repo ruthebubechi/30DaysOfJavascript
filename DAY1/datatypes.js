@@ -1,5 +1,5 @@
-//Question 5 Use the JavaScript typeof operator to check different data types. Check the data type of each variable
-
+//Question 5
+//Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
 //.....Answer............//
 
 const name = "Stella";
@@ -18,7 +18,7 @@ const number = null;
 console.log(typeof number);
 
 //Question 6
-//declaring four variables without value
+//Declare four variables without assigning values
 
 //.....Answer........//
 let person;
@@ -27,7 +27,7 @@ let level;
 let numberOfChildren;
 
 //Question 7
-//declaring four variables with value
+//Declare four variables with assigned values
 
 //.....Answer........//
 const nationality = "Nigerian";
@@ -36,8 +36,7 @@ const ageRange = 25;
 const isTechie = true;
 
 //Question 8
-//variables to store my data in multiple lines
-
+//Declare variables to store your first name, last name, marital status, country and age in multiple lines
 //.....Answer........//
 const firstName = "Ruth";
 const lastName = "Chukwu";
@@ -52,7 +51,7 @@ console.log(country);
 console.log(age);
 
 //Question 9
-//variables to store my data in single line
+//Declare variables to store your first name, last name, marital status, country and age in a single line
 
 //.......Answer.........//
 const FirstName = "Ruth",
