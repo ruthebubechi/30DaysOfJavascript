@@ -36,3 +36,7 @@ I understood that casting is the process of converting a datatype to another dat
 # Random Number Generator
 
 I learnt an understood how numbers can be generated in JavaScript, using the method of Math.random().
+
+# Regular expression
+
+I learnt how to use an expression to replace or match words i do not need.

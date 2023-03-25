@@ -211,5 +211,32 @@ console.log(countWords.match(countWordsTogether));
 
 //Question 3
 //Clean the following text and find the most frequent word (hint, use replace and regular expressions).
-// const sentence =
-//   "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
+const sentence =
+  "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
+console.log(sentence.replace(/[^\w ]/g, ""));
+
+//Question 4
+//Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+
+const personEarning =
+  "He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.";
+//used regular expression method to extract just the digit from the string
+const regularExpression = /\d+/g;
+const extractNumbers = personEarning.match(regularExpression);
+// console.log(extractNumbers);
+//an array of string was the output so i will have to convert string to numbers
+
+const monthlySalary = 5000;
+const convertMonthlySalary = +monthlySalary;
+// console.log(convertMonthlySalary);
+
+const annualBonus = 10000;
+const convertAnnualBonus = +annualBonus;
+// console.log(convertAnnualBonus);
+
+const onlineCourses = 15000;
+const convertOnlineCourses = +onlineCourses;
+// console.log(convertOnlineCourses);
+
+const totalAnnualIncome = monthlySalary * 12 + annualBonus + onlineCourses * 12;
+console.log(totalAnnualIncome);
