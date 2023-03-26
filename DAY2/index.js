@@ -217,26 +217,16 @@ console.log(sentence.replace(/[^\w ]/g, ""));
 
 //Question 4
 //Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-
-const personEarning =
+const completeSentence =
   "He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.";
-//used regular expression method to extract just the digit from the string
-const regularExpression = /\d+/g;
-const extractNumbers = personEarning.match(regularExpression);
-// console.log(extractNumbers);
-//an array of string was the output so i will have to convert string to numbers
 
-const monthlySalary = 5000;
-const convertMonthlySalary = +monthlySalary;
-// console.log(convertMonthlySalary);
+const earnings = completeSentence.match(/\d+/g);
 
-const annualBonus = 10000;
-const convertAnnualBonus = +annualBonus;
-// console.log(convertAnnualBonus);
+const monthlySalary = +earnings[0];
 
-const onlineCourses = 15000;
-const convertOnlineCourses = +onlineCourses;
-// console.log(convertOnlineCourses);
+const annualBonus = +earnings[1];
 
-const totalAnnualIncome = monthlySalary * 12 + annualBonus + onlineCourses * 12;
+const onlineCourse = +earnings[2];
+
+const totalAnnualIncome = monthlySalary * 12 + annualBonus + onlineCourse * 12;
 console.log(totalAnnualIncome);
