@@ -60,3 +60,13 @@ I learnt an understood how numbers can be generated in JavaScript, using the met
 # Solved a problem
 
 I learnt how to combine methods to solve a problem.
+
+# Day3
+
+# Booleans
+
+I learnt about the truthy and falsy values of boolean and got to learn that all strings are truthy except empty strings
+
+# Comparison operator
+
+I understood that comparison operators are used to compare two values and the result is always a boolean
